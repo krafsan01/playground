@@ -1,0 +1,45 @@
+main {
+  max-width: 800px;
+  margin: 5vh auto;
+  padding: 20px;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: 400px;
+  margin-bottom: 40px;
+  color: #707070;
+}
+h2 {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #5e5d5d;
+}
+.faq {
+  padding: 20px 30px;
+  border: 1px solid red;
+  border-radius: 20px;
+  color: #979797;
+  line-height: 1.5em;
+  margin-top: 15px;
+  position: relative;
+}
+.faq .faq_text {
+  width: 90%;
+}
+.btn {
+  color: black;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+.faq.open h2 {
+  color: black;
+}
+.faq p {
+  display: none;
+}
+.faq.open p {
+  display: block;
+}
