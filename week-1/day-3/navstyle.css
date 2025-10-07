@@ -1,0 +1,16 @@
+.navclass {
+  display: flex;
+
+  justify-content: center;
+  background-color: rgb(211, 197, 180);
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  padding: 2px;
+}
+li:hover {
+  background: #e9c4c4;
+}
