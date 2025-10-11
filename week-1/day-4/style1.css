@@ -39,3 +39,32 @@
   padding-bottom: 15px;
   border-radius: 10px 10px 10px 10px;
 }
+@media screen and (min-width: 912px) {
+  .container .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 10px;
+  }
+  .container .box .dream {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container .box {
+    flex-direction: column;
+  }
+  .container .box .dream {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 642px) {
+  .container .heading {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 312px) {
+  .container .heading h3 {
+    width: 100%;
+  }
+}
