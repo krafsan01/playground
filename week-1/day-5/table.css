@@ -18,3 +18,31 @@ body {
 .invoice-table tfoot tr {
   border-top: 1px dashed green;
 }
+.invoice-table thead tr td {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: grey;
+  font-weight: bolder;
+  padding: 8px;
+}
+.invoice-table tbody tr td {
+  color: green;
+
+  padding: 8px;
+}
+.invoice-table tfoot tr td {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(136, 151, 79);
+  font-weight: bolder;
+  padding: 8px;
+}
+.invoice-table thead tr td:nth-last-child(1),
+.invoice-table tbody tr td:nth-last-child(1),
+.invoice-table tfoot tr td:nth-last-child(1) {
+  text-align: right;
+}
+.invoice-table tbody span {
+  font-size: 12px;
+  color: grey;
+}
