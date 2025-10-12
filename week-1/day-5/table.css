@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+}
+body {
+}
+.invoice-table {
+  border-collapse: collapse;
+  width: 25em;
+  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.15);
+  margin: 25px auto;
+}
+.invoice-table thead tr {
+  border-bottom: 1px dashed green;
+}
+.invoice-table tfoot tr {
+  border-top: 1px dashed green;
+}
