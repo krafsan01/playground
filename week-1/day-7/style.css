@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #f0ebeb;
+  font-size: 15px;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.contact-box {
+  background: white;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 60px 40px;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 60px 40px;
+  background: #483972;
+  color: white;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 40px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+textarea {
+  width: 100%;
+  border: 1px solid;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: rgb(30, 30, 107);
+}
+button {
+  background: rgb(30, 30, 107);
+  width: 100px;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 30px;
+  color: white;
+  margin-top: 20px;
+}
+.contact-left h3 {
+  color: rgb(30, 30, 107);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact-right h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+tr td:first-child {
+  padding-right: 15px;
+}
+tr td {
+  padding-top: 20px;
+}
