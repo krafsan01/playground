@@ -1,0 +1,35 @@
+.cards {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  box-shadow: 0 0 3px rgba(red, green, blue, alpha);
+}
+.card-img {
+  width: 100%;
+  display: block;
+}
+.card-content {
+  line-height: 1.5;
+  padding: 10px;
+  background-color: aqua;
+}
+.card-content > p:first-of-type {
+  margin-top: 0;
+}
+.card-info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid whitesmoke;
+}
+.card-link {
+  text-decoration: none;
+}
+.card-link:hover {
+  background-color: brown;
+  color: white;
+}
