@@ -1,0 +1,80 @@
+body {
+  background: white;
+  margin: 0;
+  padding: 0 0 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+article {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.5em;
+  color: black;
+}
+h1,
+img,
+aside,
+.main1 {
+  grid-column: 2;
+}
+
+.main1 {
+  max-width: 450px;
+  margin: auto;
+  text-align: justify;
+}
+img {
+  width: 100%;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child::after {
+  opacity: 0.2;
+}
+
+h1 span {
+  display: block;
+}
+.first {
+  margin-bottom: -10px;
+}
+.second {
+  transform: translateY(50%);
+  width: 50px;
+  margin: auto;
+}
+.third {
+  border-width: thin 0;
+  padding: 10px 0 0;
+}
+
+h1 {
+  text-align: center;
+}
+.first {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.second {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.third {
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.name {
+  font-weight: 900;
+}
+.title1 {
+  font-size: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.writing {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+}
