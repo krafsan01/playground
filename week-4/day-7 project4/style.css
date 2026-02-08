@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.img1 {
+  background-image: url(developer.png);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  padding-left: 700px;
+  margin: 0 auto;
+  color: white;
+  font-size: 27px;
+  letter-spacing: 2px;
+  line-height: 4rem;
+}
+/* .textbg p h1 {
+  display: flex;
+  justify-self: flex-start;
+} */
+
+.lg-text {
+  font-size: 72px;
+  font-weight: 400;
+}
+.black-box {
+  background-color: black;
+  color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.black-box h2 {
+  font-weight: 400;
+  font-size: 96px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.lg-black {
+  font-size: 144px;
+  font-weight: 400;
+}
+.box {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card {
+  max-width: 320px;
+  height: 450px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+  transition: 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+  transition: 0.2s ease-in-out;
+}
+.grid-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-content {
+  padding: 20px;
+  color: black;
+}
+.card-content h2 {
+  margin-bottom: 20px;
+}
+.bottom-section {
+  display: flex;
+  color: white;
+}
+.contact {
+  background: rgba(81, 86, 3, 1);
+  padding: 130px;
+}
+.about {
+  background: rgba(114, 35, 0, 1);
+  padding: 130px;
+}
+.contact h2 {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.contact p {
+  font-size: 14px;
+  line-height: 23px;
+  text-align: justify;
+}
+.contact p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.about h2 {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.about p {
+  font-size: 14px;
+  line-height: 23px;
+  text-align: justify;
+}
+.about p:nth-child(3) {
+  margin-top: 10px;
+}
+footer {
+  color: white;
+  background: black;
+}
+footer h3 {
+  text-align: center;
+  padding: 60px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 22px;
+}
