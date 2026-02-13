@@ -137,6 +137,14 @@ hr {
     "I1 I1 I2 I7"
     "I4 I5 I6 I7";
 }
+.grid-img {
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.grid-img:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.05);
+}
 .item1 {
   grid-area: I1;
 }
