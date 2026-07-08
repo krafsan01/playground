@@ -20,4 +20,5 @@ func main() {
 	fmt.Println(true)
 	fmt.Println(false)
 	fmt.Println(10.55566)
+	fmt.Println(10.55566254645654)
 }
