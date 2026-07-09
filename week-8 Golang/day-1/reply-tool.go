@@ -1,14 +1,31 @@
+// package main
+
+// import "fmt"
+
+// func main() {
+
+// 	i := "rafsan"
+
+// 	switch i {
+// 	case "rafsan":
+// 		fmt.Println("hello rafsan")
+// 	}
+
+// }
+
 package main
 
 import "fmt"
 
 func main() {
+	var age int
 
-	i := "rafsan"
+	fmt.Print("Enter your age: ")
+	fmt.Scan(&age)
 
-	switch i {
-	case "rafsan":
-		fmt.Println("hello rafsan")
+	if age >= 18 {
+		fmt.Println("You are an adult.")
+	} else {
+		fmt.Println("You are a minor.")
 	}
-
 }
