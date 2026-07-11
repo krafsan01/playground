@@ -17,8 +17,13 @@ func text() {
 	fmt.Println("Hello Everyone")
 }
 
+func hello(name string) {
+	fmt.Println("hello", name)
+}
+
 func main() {
 
+	hello("rafsan")
 	text()
 
 	a := 30
